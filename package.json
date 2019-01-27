@@ -1,0 +1,25 @@
+{
+  "name": "elm-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A Tic tac toe application with an unbeatable computer opponent. Implemented in the Elm programming language.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarvill91/elm-tic-tac-toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scarvill91/elm-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/scarvill91/elm-tic-tac-toe#readme",
+  "dependencies": {
+    "elm": "0.16.0"
+  }
+}
