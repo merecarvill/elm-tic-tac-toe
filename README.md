@@ -2,20 +2,25 @@
 
 A Tic tac toe application with an unbeatable computer opponent. Implemented in the Elm programming language.
 
-## To install dependencies
+## Dependencies
 
-1. Have Node.js version 0.11 or greater installed on your machine. Earlier versions will raise an error when running ```elm test```.
-2. Install Elm with ```npm install -g elm```.
-3. Install project dependencies with ```elm package install```.
+- NVM or another node version manager.
 
-## To run
+## Setup
 
-1. Follow instructions in the "To install dependencies" section.
-2. Build the app with ```elm make src/Main.elm --output index.html```.
-3. Open ```index.html``` in your browser.
+- `nvm use`
+- `npm install`
+- `npx elm package install`
 
-## To test
+## Build
 
-1. Follow instructions in the "To install dependencies" section.
-2. Install the ```elm-test``` utility with ```npm install -g elm-test```.
-3. Run tests with ```elm test TestRunner.elm```.
+`npx elm make src/Main.elm --output index.html`
+
+## Run
+
+Open `index.html` in your browser.
+
+## Test
+
+- `npm install -g elm-test`
+- `npx elm test TestRunner.elm`
